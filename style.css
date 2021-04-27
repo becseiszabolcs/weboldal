@@ -4,6 +4,9 @@ body {
 
 header {
   border: 1px solid white;
+  font-size: 200px;
+  height: 200px;
+  background-image: url("./fejlec.jpg")
 }
 
 header h1 {
@@ -13,6 +16,10 @@ header h1 {
   text-shadow: 5px 0 5px #000;
   -moz-text-shadow: 5px 0 5px #000;
   -webkit-text-shadow: 5px 0 5px #000;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+
 }
 
 .nav-link {
@@ -48,4 +55,6 @@ footer p {
 #eredmeny {
   background-color: rgb(200, 200, 200);
   font-weight: bold;
+  border: solid 1px #ffc107;
+
 }
